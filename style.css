@@ -1,0 +1,151 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+    margin: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+    z-index: 1000;
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    color: #1c1010;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.midnavbar ul,
+.endnavbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #515151;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+
+}
+
+
+.midnavbar ul li,
+.endnavbar ul li {
+    display: inline;
+}
+
+.midnavbar ul li a,
+.endnavbar ul li a {
+    color: #515151;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.main-content .bolsas {
+    float: right;
+
+
+}
+
+ 
+
+.opciones {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px); 
+    top: 100%;
+ width: 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   transition: 0.5s;
+    
+    
+}
+
+.tienda:hover .opciones {
+    display: block;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.opciones ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.opciones ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.opciones ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+.main-content .bolsas:hover {
+    filter: brightness(200%);
+}
+
+main .bigger {
+
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    color: rgb(152, 150, 151);
+    font-size: 90px;
+    transition: 0.5s;
+}
+
+main .bigger:hover {
+    filter: brightness(120%);
+}
+
+main .bajada {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+main .mono {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+
+nav .logo:hover,
+nav a:hover {
+    filter: brightness(150%);
+    transition: 0.5s;
+}
