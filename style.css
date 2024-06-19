@@ -12,11 +12,12 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 7vh;
+    height: 10vh;
     z-index: 1000;
     background-color: #fff;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    
 
 }
 
@@ -24,16 +25,21 @@ body {
 nav {
 
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px ; 
+   
 }
+
+
 
 .logo {
     color: #1c1010;
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+    
 
 }
 
@@ -70,17 +76,21 @@ nav {
 
  
 
-.opciones {
+ .opciones {
     display: none;
     position: absolute;
-    top: calc(100% + 10px); 
-    top: 100%;
- width: 10%;
+    background-color: #fff;
+    top:100% ;
+    width: 150px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   transition: 0.5s;
+    left: 48%;
+    transform: translateX(-43%); 
+    transition: 0.5s;
+    z-index: 1;
     
     
 }
+
 
 .tienda:hover .opciones {
     display: block;
